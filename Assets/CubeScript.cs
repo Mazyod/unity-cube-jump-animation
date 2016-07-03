@@ -60,7 +60,7 @@ public class CubeScript : MonoBehaviour {
 	}
 
 	private void PerformPromotionAnimation() {
-
+		animator.SetTrigger("promote");
 	}
 
 	#endregion
